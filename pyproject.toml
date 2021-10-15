@@ -23,7 +23,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-pyrogram = { git = "https://github.com/pylakey/pyrogram" }
+pyrogram = { git = "https://github.com/pylakey/pyrogram", rev = "4d701dc" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
